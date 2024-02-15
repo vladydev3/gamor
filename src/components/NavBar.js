@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-        <nav className="flex justify-between px-14 py-16 ">
+        <nav className="flex justify-between px-12 py-12 ">
             <ul className="flex gap-8">
                 <li className="text-orange-500"><a href="#">Home</a></li>
                 <li><a href="#" className="transition duration-500 hover:text-orange-500">Streams</a></li>

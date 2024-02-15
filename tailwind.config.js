@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        'padding': 'padding',
+      },
       colors: {
         "black-100": "#100107",
         "black-500": "#1a1a1a",
+        "black-550": "#262626",
         "black-600": "#333333",
         "black-700": "#4d4d4d",
       },
