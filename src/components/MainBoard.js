@@ -1,9 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
 
 
 const MainBoard = () => {
 
-    const randomUsers = ['User1', 'User2', 'User3', 'User4', 'User5'];
+    const randomUsers = ['Dr Team', 'Mia Plays', 'Keoxer', 'Nickmerc', 'Lolo'];
 
     return (
         <main className="h-full cursor-default flex pb-4 items-stretch justify-between max-w-screen-lg mx-auto">
@@ -22,7 +23,12 @@ const MainBoard = () => {
                     <path d="M21 14h-6c-.553 0-1-.448-1-1s.447-1 1-1h6c.553 0 1 .448 1 1s-.447 1-1 1zM18 17c-.553 0-1-.448-1-1v-6c0-.552.447-1 1-1s1 .448 1 1v6c0 .552-.447 1-1 1zM9 6c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3m0-2c-2.764 0-5 2.238-5 5s2.236 5 5 5 5-2.238 5-5-2.236-5-5-5zM9 17c2.021 0 3.301.771 3.783 1.445-.683.26-1.969.555-3.783.555-1.984 0-3.206-.305-3.818-.542.459-.715 1.777-1.458 3.818-1.458m0-2c-3.75 0-6 2-6 4 0 1 2.25 2 6 2 3.518 0 6-1 6-2 0-2-2.354-4-6-4z" fill="#000000" />
                 </svg>
                 <p className="text-orange-500 bg-white p-3 my-8 w-1/2 m-auto cursor-default rounded-full">11 : 45</p>
-                <img src="skin_fortnite.png" alt="fortnite skin" className="w-1/2 m-auto" />
+                <Image 
+                    src='/skin_fortnite.png' alt="Skin Fortnite"
+                    width={170}
+                    height={0}
+                    className='m-auto hidden md:block'
+                />
             </div>
             <div className="flex-1 bg-black-550 rounded-r-3xl ">
                 <p className="text-left py-9 pb-4 px-8"><span className="text-gray-400">01.</span> Choose Platform</p>
