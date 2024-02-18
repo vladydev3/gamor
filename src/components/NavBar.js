@@ -33,8 +33,8 @@ const NavBar = () => {
     }
 
     return (
-        <nav className="cursor-default flex justify-between px-20 py-12 ">
-        <ul className="flex gap-8">
+        <nav className="cursor-default flex flex-col md:flex-row justify-between px-4 md:px-20 py-4 md:py-12 ">
+        <ul className="flex gap-2 md:gap-8 flex-wrap justify-center md:justify-start">
             <li className={`transition duration-500 hover:text-violet-600 dark:hover:text-orange-500
             ${pathname === '/' ? 'dark:text-orange-500 text-violet-600' : 'dark:text-white text-black'}
             `}>
@@ -44,7 +44,7 @@ const NavBar = () => {
             <li><Link className='transition duration-500 hover:text-violet-600 dark:hover:text-orange-500' href="#">Party</Link></li>
             <li><Link className='transition duration-500 hover:text-violet-600 dark:hover:text-orange-500' href="#">Premium</Link></li>
         </ul>
-        <ul className="flex gap-10">
+        <ul className="flex gap-2 md:gap-10 flex-wrap justify-center md:justify-start mt-4 md:mt-0">
             {user ? (
             <li><a onClick={handleLogout} className="cursor-pointer transition duration-500 hover:text-orange-500">Sign Out</a></li>
             ) : (
