@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 const MainBoard = () => {
 
     const randomUsers = ['Dr Team', 'Mia Plays', 'Keoxer', 'Nickmerc', 'Lolo'];
