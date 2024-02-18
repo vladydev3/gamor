@@ -21,4 +21,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can sign in introducing user@example.com as email and 12345678 as password
 
 ## Deploy
-[https://gamor-navy.vercel.app/](https://gamor-navy.vercel.app/)
+[https://gamor-zeta.vercel.app/](https://gamor-zeta.vercel.app/)
